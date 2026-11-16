@@ -1,0 +1,25 @@
+# RTIH Task Tracker - .gitignore
+
+# Environment & local credentials
+config/database.local.php
+.env
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and Sessions
+*.log
+
+# Node dependencies
+node_modules/
+
+# Vercel
+.vercel

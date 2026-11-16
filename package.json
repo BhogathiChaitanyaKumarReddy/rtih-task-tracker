@@ -1,0 +1,13 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "Modern Task Tracker Web Application",
+  "scripts": {
+    "test": "node tests/ui.test.js",
+    "test:ui": "node tests/ui.test.js",
+    "screenshots": "node scripts/take_screenshots.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.17.0"
+  }
+}
